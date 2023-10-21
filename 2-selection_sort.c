@@ -44,10 +44,10 @@ void selection_sort(int *array, size_t size)
  */
 void swap_and_print(int *x, int *y, int *array, size_t size)
 {
-	int temp;
+        int temp;
 
-	temp = *x;
-	*x = *y;
-	*y = temp;
-	print_array(array, size);
+        temp = *x;
+        *x = *y;
+        *y = temp;
+        print_array(array, size);
 }
